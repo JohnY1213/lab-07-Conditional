@@ -1,0 +1,38 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>flowchart</title>
+</head>
+<body>
+    <script>
+        var Troubleshooting = prompt("Does it move?");
+
+        if (Troubleshooting === "yes") {
+            var Q1 = prompt("should it?");
+            if (Q1 === "yes") {
+                console.log("No Problem");
+            }
+            else if (Q1 === "no") {
+                console.log("Then use duct tape!!!");
+            }
+            else {
+                console.log("Answer my question! You didn't type yes or no.");
+            }
+        }
+        else if (Troubleshooting === "no") {
+            var Q2 = prompt("should it?");
+            if (Q2 === "yes") {
+                console.log("Then use WD-40");
+            }
+            else if (Q2 === "no") {
+                console.log("No problem");
+            }
+            else {
+                console.log("Answer my question! You didn't type yes or no.");
+            }
+        }
+        else {
+            console.log("Answer my question! You didn't type yes or no.");
+        }
+    </script>
+</body>
+</html>

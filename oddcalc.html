@@ -1,0 +1,26 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Oddcalc</title>
+</head>
+<body>
+    <script>
+        var firstnumber = prompt("Girve me a number...");
+        var secondnumber = prompt("well, give me another number...");
+        var operation = prompt("And what operation do you want (mul, div, or mod)");
+        if (operation === "mul") {
+            console.log(firstnumber * secondnumber);
+        }
+        else if (operation === "div") {
+            console.log(firstnumber / secondnumber);
+        }
+        else if (operation === "mode") {
+            console.log(firstnumber % secondnumber);
+        }
+        else {
+            console.log("*** invalid operation *** ");
+        }
+
+
+    </script>
+</body>
+</html>
