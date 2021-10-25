@@ -19,5 +19,6 @@ elif (Troubleshooting == "no") :
     else :
         print("Answer my question! You didn't type yes or no.");
  
+
 else:
     print("Answer my question! You didn't type yes or no.");
